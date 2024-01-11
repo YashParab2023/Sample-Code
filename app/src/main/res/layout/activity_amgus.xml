@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".amgus_activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/ivstar"
+            android:layout_width="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:src="@drawable/amgus"
+            android:layout_height="250dp"/>
+        <TextView
+            android:id="@+id/star"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Among Us"
+            android:textSize="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/ivstar"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/imgDescription"
+            android:layout_width="350dp"
+            android:layout_centerHorizontal="true"
+            android:text="Among Us follows a crew being killed one at a time by one or more Impostors.
+            The game got very popular in late 2020 because many Twitch streamers and YouTubers have played it.
+            In December 2021, Innersloth announced that there would be a virtual reality version of the game, called Among Us VR."
+            android:textSize="20dp"
+            android:layout_below="@+id/star"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_centerHorizontal="true"
+            android:text="431_Yash, 435_Soham, 437_Abbas"
+            android:textSize="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

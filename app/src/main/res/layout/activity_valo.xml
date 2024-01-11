@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".valo_activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/ivstar"
+            android:layout_width="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:src="@drawable/valorantimg"
+            android:layout_height="250dp"/>
+        <TextView
+            android:id="@+id/star"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Valorant"
+            android:textSize="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/ivstar"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/imgDescription"
+            android:layout_width="350dp"
+            android:layout_centerHorizontal="true"
+            android:text="Valorant is a team-based first-person tactical hero shooter set in the near future.
+            Players play as one of a set of Agents, characters based on several countries and cultures around the world.
+             In the main game mode, players are assigned to either the attacking or defending team with each team having five players on it."
+            android:textSize="20dp"
+            android:layout_below="@+id/star"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_centerHorizontal="true"
+            android:text="431_Yash, 435_Soham, 437_Abbas"
+            android:textSize="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
